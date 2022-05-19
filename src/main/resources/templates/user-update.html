@@ -17,8 +17,11 @@
     <label for="age">Age</label>
     <input type="number" th:field="*{age}" id="age" placeholder="Last Name">
     <br/>
-    <input type="submit" value="Update User">
+    <input type="hidden" name="_method" value="PUT"/>
+    <input type="submit"  value="Update User">
 </form>
+
+
 
 <!--<form action="#" th:action="@{/user-update}" th:object="${user}" th:method="PATCH">-->
 <!--    <label for="id">Id</label>-->

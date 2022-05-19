@@ -14,10 +14,10 @@ public class InitClass {
         this.userService = userService;
     }
 
-    @PostConstruct
-    public void initMethod(){
-        userService.saveUser(new User("Ivan","Ivanov",22));
-        userService.saveUser(new User("Максим","Максимов",26));
-        userService.saveUser(new User("Petr","Petrov",5));
-    }
+//    @PostConstruct
+//    public void initMethod(){
+//        userService.saveUser(new User("Ivan","Ivanov",22));
+//        userService.saveUser(new User("Максим","Максимов",26));
+//        userService.saveUser(new User("Petr","Petrov",5));
+//    }
 }
